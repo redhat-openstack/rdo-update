@@ -1,0 +1,7 @@
+---
+notes: python-django-horizon-2014.2 for Juno
+builds:
+  - id: python-django-horizon-2014.2-3.fc22
+    source: koji
+    repo: juno
+    dist: fedora-20

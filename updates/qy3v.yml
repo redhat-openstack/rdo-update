@@ -1,0 +1,7 @@
+---
+notes: python-django-horizon-2014.2 for Juno
+builds:
+  - id: python-django-horizon-2014.2-3.el7
+    source: copr-jruzicka
+    repo: juno
+    dist: epel-7
