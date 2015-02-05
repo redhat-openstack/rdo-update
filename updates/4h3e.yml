@@ -1,0 +1,11 @@
+---
+notes: openstack-trove-2014.2 for Juno
+builds:
+  - id: openstack-trove-2014.2-3.el7
+    source: copr-jruzicka
+    repo: juno
+    dist: epel-7
+  - id: openstack-trove-2014.2-3.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
