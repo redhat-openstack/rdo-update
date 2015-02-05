@@ -1,0 +1,7 @@
+---
+notes: Rebase to 2014.2.2
+builds:
+  - id: openstack-glance-2014.2.2-1.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
