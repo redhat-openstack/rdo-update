@@ -1,0 +1,7 @@
+---
+notes: Rebase to 2014.2.2
+builds:
+  - id: openstack-glance-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
