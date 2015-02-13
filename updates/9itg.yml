@@ -1,0 +1,51 @@
+---
+notes: Rebase all openstack-* to 2014.2.2 - CentOS 7 Cloud SIG builds
+builds:
+  - id: openstack-packstack-2014.2-0.16.dev1447.g6f4d34b.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-puppet-modules-2014.2.10-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-ceilometer-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-cinder-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-glance-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-heat-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-keystone-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-neutron-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-nova-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-sahara-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-trove-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: python-django-horizon-2014.2.2-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
