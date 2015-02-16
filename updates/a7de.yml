@@ -1,0 +1,15 @@
+---
+notes: Update to 2014.1.1-3.fc21
+builds:
+  - id: openstack-puppet-modules-2014.1.1-3.fc21
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
+  - id: openstack-puppet-modules-2014.1.1-3.fc21
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: openstack-puppet-modules-2014.1.1-3.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
