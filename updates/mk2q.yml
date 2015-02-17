@@ -1,0 +1,15 @@
+---
+notes: Updated to 2014.1.1-0.31.1.dev1274
+builds:
+  - id: openstack-packstack-2014.1.1-0.31.1.dev1274.fc21
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
+  - id: openstack-packstack-2014.1.1-0.31.1.dev1274.fc21
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: openstack-packstack-2014.1.1-0.31.1.dev1274.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
