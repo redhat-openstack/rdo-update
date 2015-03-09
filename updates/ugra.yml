@@ -1,0 +1,11 @@
+---
+notes: Update Packstack and OPM for juno
+builds:
+  - id: openstack-puppet-modules-2014.2.11-1.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
+  - id: openstack-packstack-2014.2-0.17.dev1462.gbb05296.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
