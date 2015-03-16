@@ -1,0 +1,15 @@
+---
+notes: stable/icehouse 2014.1.4 update
+builds:
+  - id: openstack-nova-2014.1.4-2.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
+  - id: openstack-nova-2014.1.4-2.el6
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: openstack-nova-2014.1.4-2.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
