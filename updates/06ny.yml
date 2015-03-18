@@ -1,0 +1,7 @@
+---
+notes: Latest openstack-selinux for Juno
+builds:
+  - id: openstack-selinux-0.6.25-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
