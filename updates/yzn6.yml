@@ -1,0 +1,14 @@
+---
+notes: |-
+  Update to upstream 2014.1.3
+  Adding default SQLite database with proper permissions
+  Removing pre-systemd packaging apparatus
+builds:
+  - id: openstack-sahara-2014.1.3-3.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
+  - id: openstack-sahara-2014.1.3-3.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
