@@ -1,0 +1,27 @@
+---
+notes: Update Packstack and OPM for icehouse
+builds:
+  - id: openstack-packstack-2014.1.1-0.31.5.dev1280.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
+  - id: openstack-packstack-2014.1.1-0.31.5.dev1280.el6
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: openstack-packstack-2014.1.1-0.31.5.dev1280.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
+  - id: openstack-puppet-modules-2014.1.1-4.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
+  - id: openstack-puppet-modules-2014.1.1-4.el6
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: openstack-puppet-modules-2014.1.1-4.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
