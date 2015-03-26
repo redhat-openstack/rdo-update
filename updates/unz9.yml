@@ -1,0 +1,8 @@
+---
+notes: new improved openstack-tempest RPM using new spec/pkging
+builds:
+  - id: openstack-tempest-kilo-20150319.1.fc23
+    source: koji
+    repo: kilo
+    tag: fedora
+    dist: fedora-22
