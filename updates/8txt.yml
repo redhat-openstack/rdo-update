@@ -1,0 +1,8 @@
+---
+notes: Replacement tempest RPM using new improved spec/pkging
+builds:
+  - id: openstack-tempest-juno-20150319.1.fc22
+    source: koji
+    repo: juno
+    tag: fedora
+    dist: fedora-21
