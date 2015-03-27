@@ -1,0 +1,16 @@
+---
+notes: |-
+  Added launch_command.py to MANIFEST.in
+  Resolves: rhbz#1184522
+  Updated needed dependencies from upstream
+  Removed pre-systemd packaging apparatus
+
+builds:
+  - id: openstack-sahara-2014.2.2-4.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
+  - id: openstack-sahara-2014.2.2-4.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
