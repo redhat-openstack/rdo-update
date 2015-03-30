@@ -1,0 +1,7 @@
+Code-Review+2: Steve Linabery <slinaber@redhat.com>
+Verified+1: Steve Linabery <slinaber@redhat.com>
+Submitted-by: Alan Pevec <alan.pevec@redhat.com>
+Submitted-at: Tue, 31 Mar 2015 00:10:06 +0200
+Reviewed-on: https://review.gerrithub.io/227994
+Project: redhat-openstack/rdo-update
+Branch: refs/heads/master
