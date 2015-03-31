@@ -1,0 +1,8 @@
+Code-Review+1: Haïkel Guémar <hguemar@fedoraproject.org>
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Verified+1: Alan Pevec <alan.pevec@redhat.com>
+Submitted-by: Alan Pevec <alan.pevec@redhat.com>
+Submitted-at: Tue, 31 Mar 2015 22:29:47 +0200
+Reviewed-on: https://review.gerrithub.io/227769
+Project: redhat-openstack/rdo-update
+Branch: refs/heads/master
