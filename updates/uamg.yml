@@ -1,0 +1,11 @@
+---
+notes: Rebase to 2014.1.4
+builds:
+  - id: openstack-trove-2014.1.4-1.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
+  - id: openstack-trove-2014.1.4-1.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
