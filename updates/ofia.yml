@@ -1,0 +1,12 @@
+
+---
+notes: Fix runtime issue with glanceclient (RHBZ #1201325)
+builds:
+  - id: python-warlock-1.0.1-2.el6
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: python-warlock-1.0.1-2.f21
+    source: koji
+    repo: icehouse
+    dist: fedora-21
