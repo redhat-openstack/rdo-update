@@ -1,0 +1,7 @@
+---
+notes: Open vSwitch update for EL 7.1 kernel - rhbz#1200918
+builds:
+  - id: openvswitch-2.3.1-2.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
