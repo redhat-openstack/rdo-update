@@ -1,0 +1,13 @@
+---
+notes: new builds of tempest rpm and supporting python-tempest-lib
+builds:
+  - id: openstack-tempest-kilo-20150413.2.fc23
+    source: koji
+    repo: kilo
+    dist: fedora-22
+    tag: fedora
+  - id: python-tempest-lib-0.4.0-3.fc23
+    source: koji
+    repo: kilo
+    dist: fedora-22
+    tag: fedora
