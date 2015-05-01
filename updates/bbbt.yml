@@ -1,0 +1,13 @@
+---
+notes: |
+  backport for rdo-mgt
+  * Add the ability to set and unset flavor properties
+builds:
+  - id: python-openstackclient-1.0.3-2.fc23
+    source: koji
+    repo: kilo
+    dist: fedora-22
+  - id: python-openstackclient-1.0.3-2.el7
+    source: cbs
+    repo: kilo
+    dist: epel-7
