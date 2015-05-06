@@ -1,0 +1,11 @@
+---
+notes: python-oslo-vmware-0.7.0 for Juno 
+builds:
+  - id: python-oslo-vmware-0.7.0-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: python-oslo-vmware-0.7.0-1.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
