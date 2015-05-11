@@ -1,0 +1,8 @@
+---
+notes: icehouse requires python-websockify <= 0.5.1
+builds:
+  - id: python-websockify-0.5.1-1.el7
+    source: koji
+    repo: icehouse
+    dist: epel-7
+    tag: epel
