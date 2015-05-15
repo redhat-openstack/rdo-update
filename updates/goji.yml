@@ -1,0 +1,40 @@
+---
+notes: And some gnocchi with pesto ;)
+builds:
+  - id: openstack-gnocchi-1.0.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: openstack-gnocchi-1.0.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: python-pytimeparse-1.1.4-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-pytimeparse-1.1.4-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: python-sqlalchemy-utils-0.30.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-sqlalchemy-utils-0.30.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: python-voluptuous-0.8.5-2.fc22
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-voluptuous-0.8.5-2.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: python-sysv_ipc-0.4.2-11.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+
