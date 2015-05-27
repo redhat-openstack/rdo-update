@@ -1,0 +1,11 @@
+---
+notes: Update to upstream 2014.2.3
+builds:
+  - id: openstack-nova-2014.2.3-1.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
+  - id: openstack-nova-2014.2.3-1.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
