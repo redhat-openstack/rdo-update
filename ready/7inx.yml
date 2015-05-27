@@ -1,8 +1,8 @@
 ---
-notes: rebase to 2014.2.3, rhbz#1210459
+notes: Rebase to 2014.2.3
 builds:
   - id: openstack-neutron-2014.2.3-1.el7
-    source: copr-jruzicka
+    source: cbs
     repo: juno
     dist: epel-7
   - id: openstack-neutron-2014.2.3-1.fc23
