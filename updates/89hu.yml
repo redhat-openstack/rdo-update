@@ -1,0 +1,11 @@
+---
+notes: Upstream 2.4.0 (stable/kilo)
+builds:
+  - id: python-neutronclient-2.4.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-neutronclient-2.4.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
