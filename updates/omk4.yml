@@ -1,0 +1,11 @@
+---
+notes: Add heat-cfntools in kilo repo
+builds:
+  - id: heat-cfntools-1.3.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: heat-cfntools-1.3.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
