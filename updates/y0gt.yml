@@ -1,0 +1,7 @@
+---
+notes: Do not enable Keystone in httpd by default until Fedora selinux-policy allows it
+builds:
+  - id: openstack-packstack-2015.1-0.3.dev1537.gba5183c.fc23
+    source: koji
+    repo: kilo
+    dist: f22
