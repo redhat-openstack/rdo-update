@@ -1,0 +1,7 @@
+---
+notes: Do not enable Keystone in httpd by default until Fedora selinux-policy allows it
+builds:
+  - id: openstack-packstack-2014.2-0.24.dev1468.gd049ea9.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
