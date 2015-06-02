@@ -1,0 +1,11 @@
+---
+notes: CVE-2015-3988 persistent XSS in Horizon metadata
+builds:
+  - id: python-django-horizon-2015.1.0-7.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-django-horizon-2015.1.0-7.el7
+    source: cbs
+    repo: kilo
+    dist: el7
