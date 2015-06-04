@@ -1,0 +1,11 @@
+---
+notes: upstream 0.6.0
+builds:
+  - id: python-heatclient-0.6.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-heatclient-0.6.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
