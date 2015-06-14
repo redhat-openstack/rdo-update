@@ -1,0 +1,11 @@
+---
+notes: Fix resize failure with ISCSI logon failure when booting from volume (RHBZ #1229551)
+builds:
+  - id: openstack-cinder-2014.2.3-2.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
+  - id: openstack-cinder-2014.2.3-2.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
