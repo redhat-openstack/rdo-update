@@ -1,0 +1,13 @@
+notes: |-
+  python-fasteners A python package that provides useful locks.
+builds:
+- id: python-fasteners-0.9.0-2.fc22
+  source: koji
+  repo: kilo
+  tag: temp-liberty
+  dist: f22
+- id: python-fasteners-0.9.0-2.el7
+  source: cbs
+  repo: kilo
+  tag: temp-liberty
+  dist: el7
