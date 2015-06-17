@@ -1,0 +1,11 @@
+---
+notes: Fix CVE-2015-1851 (RHBZ #1231822)
+builds:
+  - id: openstack-cinder-2015.1.0-3.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: openstack-cinder-2015.1.0-3.el7
+    source: cbs
+    repo: kilo
+    dist: el7
