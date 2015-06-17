@@ -1,0 +1,11 @@
+---
+notes: Fix CVE-2015-1851 (RHBZ
+builds:
+  - id: openstack-cinder-2014.2.3-3.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-cinder-2014.2.3-3.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
