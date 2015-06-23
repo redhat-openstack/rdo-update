@@ -1,0 +1,7 @@
+---
+notes: Latest openstack-selinux module for Kilo on EL7
+builds:
+  - id: openstack-selinux-0.6.35-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
