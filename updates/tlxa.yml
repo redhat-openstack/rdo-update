@@ -1,0 +1,11 @@
+---
+notes: Rebased user model patch
+builds:
+  - id: python-django-openstack-auth-1.2.0-4.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-django-openstack-auth-1.2.0-4.el7
+    source: cbs
+    repo: kilo
+    dist: el7
