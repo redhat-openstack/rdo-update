@@ -1,0 +1,15 @@
+---
+notes:  Fix CVE-2015-1851 (RHBZ #1231822)
+builds:
+  - id: openstack-cinder-2014.1.4-2.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
+  - id: openstack-cinder-2014.1.4-2.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
+  - id: openstack-cinder-2014.1.4-2.el6
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
