@@ -1,0 +1,15 @@
+---
+notes: 2014.1.5 rebase
+builds:
+  - id: openstack-cinder-2014.1.5-1.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
+  - id: openstack-cinder-2014.1.5-1.el6
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: openstack-cinder-2014.1.5-1.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
