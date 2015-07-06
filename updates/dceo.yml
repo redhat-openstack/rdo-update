@@ -1,0 +1,11 @@
+---
+notes: Update PBR to 0.11
+builds:
+  - id: python-pbr-0.11.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-pbr-0.11.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
