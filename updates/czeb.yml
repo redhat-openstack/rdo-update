@@ -1,0 +1,15 @@
+---
+notes: 2014.1.5 rebase for Horizon
+builds:
+  - id: python-django-horizon-2014.1.5-1.el6
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-6
+  - id: python-django-horizon-2014.1.5-1.el7
+    source: copr-jruzicka
+    repo: icehouse
+    dist: epel-7
+  - id: python-django-horizon-2014.1.5-1.fc21
+    source: koji
+    repo: icehouse
+    dist: fedora-20
