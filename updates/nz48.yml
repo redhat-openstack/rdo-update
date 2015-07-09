@@ -1,0 +1,19 @@
+---
+notes: updated tempest and tempest-lib RPMs
+builds:
+  - id: openstack-tempest-kilo-20150708.2.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: python-tempest-lib-0.5.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: openstack-tempest-kilo-20150708.2.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-tempest-lib-0.5.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
