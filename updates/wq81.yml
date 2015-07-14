@@ -1,0 +1,11 @@
+---
+notes: Rebase to 1.8.3 (stable/kilo) includes RabbitMQ fixes
+builds:
+  - id: python-oslo-messaging-1.8.3-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-oslo-messaging-1.8.3-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
