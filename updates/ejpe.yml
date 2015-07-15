@@ -1,0 +1,11 @@
+---
+notes: new horizon plugin (Manila)
+builds:
+  - id: openstack-manila-ui-1.0.1-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: openstack-manila-ui-1.0.1-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
