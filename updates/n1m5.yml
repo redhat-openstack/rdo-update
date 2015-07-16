@@ -1,0 +1,11 @@
+---
+notes: Fix for CVE-2015-5143 (RHBZ #1242714)
+builds:
+  - id: python-django-1.8.3-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-django-1.8.3-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
