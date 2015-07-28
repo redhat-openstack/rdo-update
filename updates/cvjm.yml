@@ -1,0 +1,11 @@
+---
+notes: openstack-manila rebase to latest stable/kilo
+builds:
+  - id: openstack-manila-2015.1.0-4.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: openstack-manila-2015.1.0-4.fc23
+    source: koji
+    repo: kilo
+    dist: f22
