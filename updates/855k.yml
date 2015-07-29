@@ -1,0 +1,8 @@
+---
+notes: Cliff update required for Kilo missing in F21
+builds:
+  - id: python-cliff-1.10.0-2.fc22
+    source: koji
+    repo: kilo
+    dist: f22
+    tag: f21-compat
