@@ -1,0 +1,11 @@
+---
+notes: fix env file missing error in openstack-ceilometer-polling.service rhbz#1240740
+builds:
+  - id: openstack-ceilometer-2015.1.0-6.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: openstack-ceilometer-2015.1.0-6.el7
+    source: cbs
+    repo: kilo
+    dist: el7
