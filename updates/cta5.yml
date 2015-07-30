@@ -1,0 +1,11 @@
+---
+notes: Update to 1.2.1 (fix missing dep to python-keystoneclient) 
+builds:
+  - id: python-cinderclient-1.2.1-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-cinderclient-1.2.1-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
