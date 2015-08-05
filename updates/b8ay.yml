@@ -1,0 +1,20 @@
+---
+notes: update to 2015.1.1 point release
+builds:
+  - id: openstack-keystone-2015.1.1-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-pysaml2-3.0.0-1.fc22
+    source: koji
+    repo: kilo
+    dist: f22
+    tag: fedora
+  - id: openstack-keystone-2015.1.1-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: python-pysaml2-3.0.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
