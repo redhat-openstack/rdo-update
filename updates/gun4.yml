@@ -1,0 +1,11 @@
+---
+notes: adding python-UcsSdk
+builds:
+  - id: python-UcsSdk-0.8.2.4-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: python-UcsSdk-0.8.2.4-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
