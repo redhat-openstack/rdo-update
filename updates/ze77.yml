@@ -1,0 +1,11 @@
+---
+notes: introduce python-networking-cisco
+builds:
+  - id: python-networking-cisco-2015.1.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: python-networking-cisco-2015.1.0-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
