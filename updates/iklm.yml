@@ -1,0 +1,23 @@
+---
+notes: Add missing requirements on python-tablib
+builds:
+  - id: python-cliff-tablib-1.1-3.fc21
+    source: koji
+    repo: kilo
+    dist: f22
+    tag: fedora
+  - id: python-tablib-0.10.0-1.fc21
+    source: koji
+    repo: kilo
+    dist: f22
+    tag: fedora
+  - id: python-cliff-tablib-1.1-3.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+    tag: common
+  - id: python-tablib-0.10.0-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+    tag: common
