@@ -1,0 +1,11 @@
+---
+notes: update to 2015.1-0.11.dev1616.g5526c38
+builds:
+  - id: openstack-packstack-2015.1-0.11.dev1616.g5526c38.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: openstack-packstack-2015.1-0.11.dev1616.g5526c38.el7
+    source: cbs
+    repo: kilo
+    dist: el7
