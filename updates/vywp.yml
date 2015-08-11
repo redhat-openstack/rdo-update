@@ -1,0 +1,13 @@
+---
+notes: New dependency for horizon
+builds:
+  - id: python-XStatic-Angular-Gettext-2.1.0.2-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+    tag: fedora
+  - id: python-XStatic-Angular-Gettext-2.1.0.2-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+    tag: common
