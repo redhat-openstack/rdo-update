@@ -1,0 +1,8 @@
+---
+notes: required by pysaml2
+builds:
+  - id: python-repoze-who-2.1-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+    tag: common
