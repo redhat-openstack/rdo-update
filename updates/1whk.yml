@@ -1,0 +1,11 @@
+---
+notes: cinder 2015.1.1 rebase
+builds:
+  - id: openstack-cinder-2015.1.1-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: openstack-cinder-2015.1.1-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
