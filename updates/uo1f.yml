@@ -1,0 +1,11 @@
+---
+notes: 2015.1.1 sahara update
+builds:
+  - id: openstack-sahara-2015.1.1-1.fc23
+    source: koji
+    repo: kilo
+    dist: f22
+  - id: openstack-sahara-2015.1.1-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
