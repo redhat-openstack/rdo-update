@@ -1,0 +1,8 @@
+---
+notes: latest upstream 0.17.4
+builds:
+  - id: python-eventlet-0.17.4-1.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+    tag: common
