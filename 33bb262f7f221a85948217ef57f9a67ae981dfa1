@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-hudson <whayutin+hudson@redhat.com>
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Submitted-by: Alan Pevec <alan.pevec@redhat.com>
+Submitted-at: Fri, 21 Aug 2015 11:54:38 +0200
+Reviewed-on: https://review.gerrithub.io/243836
+Project: redhat-openstack/rdo-update
+Branch: refs/heads/master
