@@ -1,0 +1,13 @@
+---
+notes: |-
+  Make OPM own its directories
+  Fixes rhbz#1163363
+builds:
+  - id: openstack-puppet-modules-2015.1.9-6.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+  - id: openstack-puppet-modules-2015.1.9-6.fc23
+    source: koji
+    repo: kilo
+    dist: f22
