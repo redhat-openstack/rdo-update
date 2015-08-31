@@ -1,0 +1,13 @@
+---
+notes: Required for Liberty build
+builds:
+  - id: python-stevedore-1.7.0-1.fc24
+    source: koji
+    repo: kilo
+    tag: temp-liberty
+    dist: f22
+  - id: python-stevedore-1.7.0-1.el7
+    source: cbs
+    repo: kilo
+    tag: temp-liberty
+    dist: el7
