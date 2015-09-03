@@ -1,0 +1,7 @@
+---
+notes: Deliver 10 bugfixed
+builds:
+  - id: openstack-puppet-modules-2015.1.9-8.fc23
+    source: koji
+    repo: kilo
+    dist: f22
