@@ -1,0 +1,11 @@
+---
+notes: Missing requires on python-keystoneclient
+builds:
+  - id: python-cinderclient-1.1.1-2.fc22.1
+    source: koji
+    repo: juno
+    dist: fedora-21
+  - id: python-cinderclient-1.1.1-2.el7.1
+    source: cbs
+    repo: juno
+    dist: epel-7
