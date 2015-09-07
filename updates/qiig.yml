@@ -1,8 +1,0 @@
----
-notes: temporary until it reaches EPEL
-builds:
-  - id: python-passlib-1.6.2-2.el7
-    source: cbs
-    repo: kilo
-    dist: el7
-    tag: temp-liberty
