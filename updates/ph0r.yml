@@ -1,0 +1,8 @@
+---
+notes: ceilometer liberty dep
+builds:
+  - id: python-jsonpath-rw-ext-0.1.7-1.fc21
+    source: koji
+    repo: kilo
+    dist: f22
+    tag: temp-liberty
