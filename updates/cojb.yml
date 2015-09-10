@@ -1,0 +1,7 @@
+---
+notes: initial import 
+builds:
+  - id: python-XStatic-roboto-fontface-0.4.3.2-3.fc23
+    source: koji
+    repo: kilo
+    dist: f22
