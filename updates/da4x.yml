@@ -1,0 +1,11 @@
+---
+notes: initial import
+builds:
+  - id: python-XStatic-mdi-1.1.70.1-2.fc24
+    source: koji
+    repo: liberty
+    dist: f23
+  - id: python-XStatic-mdi-1.1.70.1-2.fc24
+    source: koji
+    repo: kilo
+    dist: f22
