@@ -1,0 +1,8 @@
+---
+notes: buildroot macros for EL7 RDO compat with latest Fedora
+builds:
+  - id: rdo-rpm-macros-1-3.el7
+    source: cbs
+    repo: kilo
+    dist: el7
+    tag: common
