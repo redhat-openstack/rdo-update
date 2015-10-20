@@ -1,0 +1,7 @@
+---
+notes: Deliver fix for rhbz#1273409
+builds:
+ - id: openstack-puppet-modules-2015.1.12-2.fc23
+   source: koji
+   repo: kilo
+   dist: f22
