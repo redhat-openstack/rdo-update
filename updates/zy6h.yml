@@ -1,0 +1,7 @@
+---
+notes: Add forgotten glance patch
+builds:
+  - id: openstack-puppet-modules-2015.1.12-3.fc23
+    source: koji
+    repo: kilo
+    dist: f22
