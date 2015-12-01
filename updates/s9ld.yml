@@ -1,0 +1,11 @@
+---
+notes: Add symlink to support hiera >= 3.0
+builds:
+  - id: openstack-packstack-2014.2-0.27.dev1480.g752c46d.el7
+    source: cbs
+    repo: juno
+    dist: epel-7
+  - id: openstack-packstack-2014.2-0.27.dev1480.g752c46d.fc22
+    source: koji
+    repo: juno
+    dist: fedora-21
